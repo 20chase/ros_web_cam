@@ -23,7 +23,7 @@ include_directories(
   /usr/include
 )
 
-add_executable(web_cam src/web_cam.cpp)
+add_executable(web_cam web_cam.cpp)
 target_link_libraries(web_cam ${catkin_LIBRARIES}
 ${OpenCV_LIBS}
 )
